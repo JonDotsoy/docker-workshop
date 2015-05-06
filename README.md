@@ -10,7 +10,7 @@ Este workshop tabajar con los siguietes conetidos.
     - Actualizar Contenedores
   - Creando un Dockerfile
     - Crear un contenedor
-    - Aplicando Configuraciones ENVIROMENT
+    - Aplicando Configuraciones ENVIRONMENT
 
 Preparacioens:
 
