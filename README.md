@@ -28,5 +28,5 @@ Preparaciones:
 Conceptos Básicos de Docker 
 ---------------------------
 
-![http://www.evernote.com/shard/s253/sh/fbe0171c-cd86-4cc6-adf3-f18dd55914b6/2f7423605ade05da490861d6acdf9a70 "Presentacion Introducción a Docker"](https://docs.google.com/presentation/d/1GmvcBS77YXPlcGSX9OteVfc0AXzC70uEEzLgEEGkHO0/pub?start=false&loop=false&delayms=3000)
+![https://www.evernote.com/shard/s253/sh/fbe0171c-cd86-4cc6-adf3-f18dd55914b6/2f7423605ade05da490861d6acdf9a70/res/acdcf828-9bb8-4bb2-9537-018d64a799b1/skitch.png?resizeSmall&width=832 "Presentacion Introducción a Docker"](https://docs.google.com/presentation/d/1GmvcBS77YXPlcGSX9OteVfc0AXzC70uEEzLgEEGkHO0/pub?start=false&loop=false&delayms=3000)
 
