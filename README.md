@@ -56,7 +56,7 @@ Listar Proceso ejecutados.
 $ docker ps
 ```
 
-#### Definir un sombre al contenedor ejecutado
+#### Definir un nombre al contenedor ejecutado
 
 Debemos tener presente el actual nombre del contenedor.
 
