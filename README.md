@@ -29,5 +29,5 @@ Conceptos Básicos de Docker
 ---------------------------
 
 [![Presentación Docker](docs/imgs/Presentation%20Docker.jpg)](https://goo.gl/LBfC3N)
-(https://goo.gl/LBfC3N)
+:link: (https://goo.gl/LBfC3N)
 
