@@ -28,5 +28,5 @@ Preparaciones:
 Conceptos Básicos de Docker 
 ---------------------------
 
-![docs/imgs/Presentation%20Docker.jpg](https://goo.gl/LBfC3N)
+![/docs/imgs/Presentation%20Docker.jpg](https://goo.gl/LBfC3N)
 
