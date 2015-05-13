@@ -97,7 +97,7 @@ $ docker run -it --name myapp -P -v $(pwd):/var/www/html php:5.6-apache
 ```
 
 
-### Ejecutar contenedor de modo demonio bajo puerto 80
+### Ejecutar contenedor de modo serivicio bajo puerto 80
 
 Levantaremos el servicio php usando el puerto 80 del servidor como un sitio web.
 
