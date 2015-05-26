@@ -8,7 +8,7 @@ Para esto debemos de crear nuestro propio documento [Dockerfile](http://docs.doc
 
 Una ves se tenga prepara do se ejecutar el siguiente comando.
 
-***NOTA:*** Para ejecutar este comando se debe de estar en el directorio en donde se encuentre el documento `Dockerfile`.
+> ***NOTA:*** Para ejecutar este comando se debe de estar en el directorio en donde se encuentre el documento `Dockerfile`.
 
 ```bash
 $ docker build -t ownnginx .
@@ -45,6 +45,35 @@ Ya teniendo listo estos dos contenedores podemos ejecutar la siguiente arquitect
 
 ![Arquitectura Balanceo de Carga](diagrama.jpg)
 
+En el cual usamos a [nginx](http://nginx.org) para redistribuir la carga de la aplicación. Permitiendo que de forma automática el servidor escoja entre uno u otro servidor.
+
+> ***MAS INFORMACION:*** Ver en [nginx.org load_balancing](http://nginx.org/en/docs/http/load_balancing.html).
 
 
-docker run -d --name con --link app1:srv1 --link app2:srv2 -P ownnginx
+
+Ejecutamos la app1
+------------------
+
+```bash
+$ docker run -d --name app1 ownapp1
+```
+
+
+
+Ejecutamos la app2
+------------------
+
+```bash
+$ docker run -d --name app2 ownapp2
+```
+
+
+
+Finalmente ejecutamos NGINX
+---------------------------
+
+El cual generamos un link (con el parámetro `[--link](https://docs.docker.com/userguide/dockerlinks)`) para que nginx puede ver las app, app1 y app2.
+
+```bash
+$ docker run -d --name nginx --link app1:srv1 --link app2:srv2 -p 80:80 ownnginx
+```
