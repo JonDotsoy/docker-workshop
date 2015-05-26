@@ -72,7 +72,7 @@ $ docker run -d --name app2 ownapp2
 Finalmente ejecutamos NGINX
 ---------------------------
 
-El cual generamos un link (con el parámetro `[--link](https://docs.docker.com/userguide/dockerlinks)`) para que nginx puede ver las app, app1 y app2.
+El cual generamos un link (con el parámetro [`--link`](https://docs.docker.com/userguide/dockerlinks)) para que nginx puede ver las app, app1 y app2.
 
 ```bash
 $ docker run -d --name nginx --link app1:srv1 --link app2:srv2 -p 80:80 ownnginx
